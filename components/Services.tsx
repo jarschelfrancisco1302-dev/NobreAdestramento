@@ -5,7 +5,7 @@ import Button from './Button';
 
 const Services: React.FC = () => {
   return (
-    <section id="servicos" className="py-20 bg-nobre-dark relative">
+    <section id="servicos" className="py-20 bg-nobre-dark relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-white/5 skew-x-12 pointer-events-none"></div>
 
